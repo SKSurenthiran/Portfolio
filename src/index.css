@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+i
+{
+    cursor: pointer;
+}
+i:hover
+{
+    color:royalblue
+}
+
+/* Loder Animation */
+.a
+{
+    animation: a 1s infinite;
+}
+
+@keyframes a
+{
+    0%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0.5;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.a
+{
+    animation: a 1s infinite;
+}
+
+@keyframes a
+{
+    0%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0.5;
+    }
+}
+
+.b
+{
+    animation: b 1s infinite;
+}
+
+@keyframes b
+{
+    0%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0.5;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.c
+{
+    animation: c 1s infinite;
+}
+
+@keyframes c
+{
+    0%
+    {
+        opacity: 0.5;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
